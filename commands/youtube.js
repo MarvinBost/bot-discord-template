@@ -1,9 +1,9 @@
 module.exports = {
     name: '!youtube',
     commands: 'youtube',
-    description: "https://www.youtube.com/",
+    description: "Obtenir le lien de notre chaine Youtube",
     execute(message) {
-        message.channel.send('Voici notre lien Youtube : \nhttps://www.youtube.com/')
+        message.channel.send('Voici notre lien Youtube : \nhttps://www.youtube.com/channel/ID')
         message.delete({
             timeout: 1000
         })
