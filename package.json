@@ -1,0 +1,19 @@
+{
+  "name": "template-bot",
+  "version": "1.0.0",
+  "description": "template discord.js bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "discordjs",
+    "template"
+  ],
+  "author": "Marvin Bost",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
