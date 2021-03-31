@@ -32,7 +32,7 @@ client.on('ready', () => {
         }
     })
 
-    let welcome = `Bienvenue! \n"Nom du server" est heureux de vous acceuilir, je vous laisse lire les règles et les accepter.\nLes règles:`
+    let welcome = `Bienvenue! \n"Nom du serveur" est heureux de vous accueillir, je vous laisse lire les règles et les acceptées.\nLes règles:`
     welcomeMessage(client, channelRules, welcome, ['✔️', '❌'])
     roleClaim(client, channelRules, channelLogs, _roleDefault, _roleTarget)
 })
